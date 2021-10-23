@@ -1,1 +1,1 @@
-header("Location: https:// /submit-ticket.php");
+header("Location: https://bongaonpd.in/submit-ticket.php");
